@@ -15,7 +15,6 @@ This project investigates two distinct enterprise challenges for global manufact
 ---
 
 ##  High-Level Insights
-![Executive Overview](reports/visual_assets/daikibo_portfolio_overview.png)
 
 * **87.4% of Global Downtime is Isolated to 2 Sites:** Out of 1,030 total failure minutes, **Factory Seiko** (480 min) and **Shenzhen** (420 min) drive the vast majority of operational losses.
 * **Component-Level Vulnerability:** Downtime is heavily concentrated in just two device types: **Laser Welders** (100% of Seiko's downtime) and **Laser Cutters** (92.8% of Shenzhen's downtime). Machine operating temperatures remained normal (23°C–27°C), isolating failures to mechanical/servicing issues rather than overheating.
