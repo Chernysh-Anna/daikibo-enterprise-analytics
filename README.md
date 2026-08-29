@@ -14,7 +14,7 @@ This project investigates two distinct enterprise challenges for global manufact
 
 ---
 
-## 📊 High-Level Insights
+##  High-Level Insights
 ![Executive Overview](reports/visual_assets/daikibo_portfolio_overview.png)
 
 * **87.4% of Global Downtime is Isolated to 2 Sites:** Out of 1,030 total failure minutes, **Factory Seiko** (480 min) and **Shenzhen** (420 min) drive the vast majority of operational losses.
@@ -23,7 +23,7 @@ This project investigates two distinct enterprise challenges for global manufact
 
 ---
 
-## 🛠️ Data Pipeline & Architecture
+##  Data Pipeline & Architecture
 
 ### 1. Telemetry Ingestion & Engineering
 * **Source:** 160,704 records (`daikibo-telemetry-data.json`) across 4 global locations.
@@ -48,13 +48,13 @@ This project investigates two distinct enterprise challenges for global manufact
 
 ---
 
-## 📈 Dashboard Interface (Tableau)
+##  Dashboard Interface 
 * Built an interactive dashboard allowing stakeholders to drill down from regional facility totals to device-level health diagnostics.
 * Configured dynamic **Action Filters** on the regional downtime bar chart to auto-filter subordinate device metrics.
 
 ---
 
-## 💡 Strategic Recommendations
+##  Strategic Recommendations
 
 | Priority | Area | Finding | Recommended Action |
 | :--- | :--- | :--- | :--- |
@@ -64,18 +64,3 @@ This project investigates two distinct enterprise challenges for global manufact
 
 ---
 
-## 💻 How to Replicate
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/daikibo-enterprise-analytics.git](https://github.com/your-username/daikibo-enterprise-analytics.git)
-   cd daikibo-enterprise-analytics
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the automated ETL pipeline:
-   ```bash
-   python src/data_pipeline.py
-   ```
-4. Open `dashboards/daikibo_telemetry_bi.twbx` in **Tableau Desktop / Tableau Public**.
